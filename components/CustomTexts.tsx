@@ -18,7 +18,6 @@ export const TypingText = (props: { title: string; textStyles?: string }) => {
 };
 
 export const TitleText = (props: { title: any; textStyles?: string }) => {
-  console.log(props.textStyles);
   return (
     <motion.h2
       variants={textVariant2}
