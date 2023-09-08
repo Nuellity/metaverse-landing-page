@@ -16,6 +16,7 @@ const Explore = () => {
         viewport={{ once: false, amount: 0.25 }}
         className='explore-wrap'
       >
+        <div className='gradient-06 z-0' />
         <TypingText title='| The World' textStyles='text-center' />
         <TitleText
           title={

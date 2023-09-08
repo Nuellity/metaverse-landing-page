@@ -13,6 +13,7 @@ const Hero = () => (
       viewport={{ once: false, amount: 0.25 }}
       className='head-wrap'
     >
+      <div className='hero-gradient z-0' />
       <div className='head'>
         <motion.h1 variants={textVariant(1.1)} className='hero-heading'>
           Metaverse

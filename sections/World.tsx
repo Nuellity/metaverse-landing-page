@@ -16,6 +16,8 @@ const World = () => (
       viewport={{ once: false, amount: 0.25 }}
       className='world'
     >
+      <div className='gradient-02 z-0' />
+      <div className='gradient-06 z-0' />
       <TypingText title='| People on the World' textStyles='text-center' />
       <TitleText
         title={

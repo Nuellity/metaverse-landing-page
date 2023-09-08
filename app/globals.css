@@ -39,7 +39,6 @@
   height: 438px;
   top: 0px;
   right: 0px;
-
   background: #7aebfb;
   filter: blur(190px);
 }
@@ -73,7 +72,6 @@
   height: 100vh;
   left: 30%;
   top: 10%;
-
   background: rgba(45, 72, 152, 0.75);
   filter: blur(200px);
   transform: rotate(-53.13deg);
@@ -87,13 +85,31 @@
   );
 }
 
+.gradient-06 {
+  position: absolute;
+  width: 200px;
+  height: 438px;
+  bottom: 0px;
+  left: 0px;
+  background: #7aebfb;
+  filter: blur(190px);
+}
+.gradient-07 {
+  position: absolute;
+  width: 200px;
+  height: 438px;
+  bottom: 25%;
+  right: 0px;
+  background: #7aebfb;
+  filter: blur(190px);
+}
+
 .feedback-gradient {
   position: absolute;
   width: 200px;
   height: 316px;
   left: 0px;
   top: 0px;
-
   background: #8d39a3;
   filter: blur(175px);
 }
@@ -104,7 +120,6 @@
   height: 100px;
   left: 37%;
   bottom: 0;
-
   background: #65c4fa;
   filter: blur(150px);
 }
@@ -205,19 +220,19 @@
   @apply w-[40px] h-[40px] absolute bottom-[2.5rem] left-[20px];
 }
 .people-01 {
-  @apply absolute bottom-[1rem] md:bottom-[6rem] right-[1rem] md:right-[9rem];
+  @apply absolute sm:bottom-[1rem] -bottom-[0.1rem] lg:bottom-[6rem] right-[1rem] sm:right-[1rem] lg:right-[9rem];
 }
 .people-02 {
-  @apply absolute top-[-1rem] md:top-[3rem] left-[1rem] md:left-[7rem] w-[70px] h-[70px] p-[6px] rounded-full;
+  @apply absolute top-[-1rem] lg:top-[3rem] left-[1rem] lg:left-[7rem] w-[70px] h-[70px] p-[6px] rounded-full;
 }
 .people-03 {
-  @apply absolute top-[25%] md:top-[45%] left-[37%] md:left-[48%] w-[70px] h-[70px] p-[6px] rounded-full;
+  @apply absolute top-[25%] lg:top-[45%] left-[37%] lg:left-[48%] w-[70px] h-[70px] p-[6px] rounded-full;
 }
 .people-04 {
-  @apply absolute top-[1rem] md:top-[6rem] left-[65%] w-[120px] h-[75px] md:w-[180px] md:h-[136px] bg-[#5d6680] p-[3px] md:p-[5px]  rounded-[24px];
+  @apply absolute top-[-0.5rem] sm:top-[1rem] lg:top-[6rem] left-[65%] w-[120px] h-[75px] md:w-[180px] md:h-[136px] bg-[#5d6680] p-[3px] md:p-[5px]  rounded-[24px];
 }
 .people-05 {
-  @apply absolute bottom-[-0.5rem] md:bottom-[6rem] left-[15%] w-[120px] h-[75px] md:w-[180px] md:h-[136px] bg-[#5d6680] p-[3px] md:p-[5px]  rounded-[24px];
+  @apply absolute bottom-[-0.75rem] lg:bottom-[6rem]  sm:left-[15%] w-[120px] h-[75px] md:w-[180px] md:h-[136px] bg-[#5d6680] p-[3px] md:p-[5px]  rounded-[24px];
 }
 .people-text {
   @apply text-white text-[0.7rem] md:text-[1rem] mt-1 md:mt-2;

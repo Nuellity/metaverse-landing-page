@@ -16,6 +16,7 @@ const Insights = () => (
       viewport={{ once: false, amount: 0.25 }}
       className='world'
     >
+      <div className='gradient-07 z-0' />
       <TypingText title='| Insight' textStyles='text-center' />
       <TitleText
         title={<>Insights about metaverse</>}
