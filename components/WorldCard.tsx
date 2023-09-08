@@ -29,7 +29,7 @@ export function AvatarCard(props: { textStyles: string; imgUrl: string }) {
   return (
     <div className={props.textStyles}>
       <div className='people-wrap'>
-        <img src='/union.png' alt='avatar' className='w-full h-full ' />
+        <img src='/Union.png' alt='avatar' className='w-full h-full ' />
         <img src={props.imgUrl} alt='people' className='people-location' />
       </div>
     </div>
