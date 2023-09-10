@@ -4,6 +4,10 @@
 
 Welcome to the Metaverse Landing Page project, an immersive and visually stunning Next.js 13 application powered by React, Node.js, Tailwind CSS, Framer Motion, and TypeScript. This project is designed to provide an exceptional user experience, combining cutting-edge technologies to create a captivating metaverse landing page. Dive into the future of web development with our modern, responsive, and aesthetically styled application.
 
+## FIGMA DESIGN FILE
+
+https://shorturl.at/isNV8
+
 ## Screen Snapshots
 
 <p float="left">
