@@ -6,7 +6,7 @@ Welcome to the Metaverse Landing Page project, an immersive and visually stunnin
 
 ## FIGMA DESIGN FILE
 
-https://shorturl.at/isNV8
+[https://shorturl.at/isNV8](https://www.figma.com/design/EyzNoOFak1Nb1bBx9ZKI7E/Modern-UI%2FUX-Framer-Motion?node-id=0-1&node-type=canvas&t=DIpo3ESfXfl9sTxH-0)
 
 ## Screen Snapshots
 
